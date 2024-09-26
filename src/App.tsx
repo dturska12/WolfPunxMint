@@ -68,7 +68,7 @@ export default function Home() {
   const collectionAddress = urlParams.get("contract") || contractConst || "";
 
   // Construct the target URL using the extracted values
-  const collectionURL = `https://hub.auraexchange.org/collection/${formattedChainName}/${collectionAddress}`;
+  const collectionURL = `https://opensea.io/collection/wolfpunx-lead-guitarist-5`;
 
 
   const root = window.document.documentElement;
@@ -576,7 +576,7 @@ export default function Home() {
                 return null;
               })}
               <a href={collectionURL} target="_blank" rel="noopener noreferrer">
-                View Collection on Aura Exchange
+                View Collection OpenSea
               </a>
             </div>
           </div>
